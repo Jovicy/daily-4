@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+
+header nav ul li {
+    list-style: none;
+    padding: 2em 2em;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #b5b5b5;
+}
+
+header nav ul li a:hover {
+    color: #e7816b;
+}
+
+.logo {
+    flex: 1;
+    color: #e7816b;
+}
+
+.brand-button {
+    border-radius: 3px;
+    border: none;
+    padding: 16px;
+    background: #fcffff;
+    color: #bfb9bd;
+}
+
+.brand-button:hover {
+    letter-spacing: 3px;
+}
+
+.ad-button {
+    border-radius: 3px;
+    border: none;
+    padding: 16px;
+    background: #fcffff;
+    color: #bfb9bd;
+}
+
+.ad-button:hover {
+    letter-spacing: 2px;
+}
+
+.frame {
+    background: #e7816b;
+    height: 70vh;
+    color: #fcffff;
+    padding: 2em 6em;
+    display: flex;
+    align-items: center;
+}
+
+.br {
+    text-align: left;
+    width: 350px;
+}
+
+.brand p {
+    margin: 20px 0 ;
+}
+
+.brand h1 {
+    font-size: 35px;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    justify-content: center;
+    width: 85%;
+    gap: 10px;
+    margin-left: 185px;
+}
+
+.web {
+    background-image: url('camera.jfif');
+    background-position: center;
+    width: 30%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.design {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+
+.app {
+    background-image: url('camera.jfif');
+    background-position: center;
+    height: 40vh;
+    width: 70%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.graphic {
+    background-image: url('camera.jfif');
+    background-position: center;
+    width: 70%;
+    height: 40vh;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin: 150px;
+}
+
+.about-branch-1{
+    width: 250px;
+}
+
+.about-branch-1 p {
+    margin: 10px;
+}
+
+.project {
+    background: #dc7763;
+    height: 30vh;
+    width: 86vw;
+    margin: 0 auto;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 35px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 350px;
+}
+
+.ads {
+    color: #fff;
+    text-align: left;
+    width: 350px;
+    font-family: cursive;
+}
+
+.designo-footer {
+    background: #1d1d1f;
+    height: 25vh;
+}
+
+footer nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer nav ul li {
+    list-style: none;
+    padding: 6em 2em;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: #6f6f71;
+}
+
+.footer-logo {
+    flex: 1;
+    color: #e7816b;
+}
+
+.address-icon svg:hover {
+    fill: #6f6f71;
+}
+
+.extra {
+    background: #1d1d1f;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 180px;
+}
+
+.address-icon {
+    position: relative;
+    right: 25px;
+}
+
+.middle-man {
+    border: 1px solid #202022;
+    width: 98.7vw;
+    display: flex;
+    margin: 0 auto;
+}
